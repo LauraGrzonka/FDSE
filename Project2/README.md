@@ -6,7 +6,7 @@ Rossby waves are important features of the large-scale flow in the ocean and atm
 ![Rossby waves](./images/rossby_fig.jpg)
 ECMWF geopotential height map showing atmospheric Rossby waves (left) and ocean eddies visible in the phytoplankton concentration off the California coast (right)
 
-Consider flow in a 2D plane, normal to the axis of rotation. In the next section, you will use Oceananigans to simulate flow in this plane. Consider small perturbations to a constant flow in the $x$-direction, $U$. Linearizing about the constant background flow, we have the following equations:
+Consider flow in a 2D plane, normal to the axis of rotation. In the next section, you will use Oceananigans to simulate flow in this plane. Consider small perturbations to a constant flow in the $x$-direction, $U$ [-- mean flow, let's say. If $U = 0$, $u = v$ (ch.)]. Linearizing about the constant background flow, we have the following equations:
 
 $$u'_t+Uu'_x - f(y) v' = -\frac{1}{\rho_0} p_x,$$
 
